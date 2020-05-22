@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content:"";
+  display:block;
+  clear:both;
+  }
+
+main{
+    width: 960px;
+    margin: 50px auto;
+    position: relative;
+   
+  }
+
+  .step-box1{
+    width: 300px;
+    float: left;
+    border: 1px solid #eee;
+    position: relative;
+    padding: 10px;
+  }
+
+  .step1-img{
+    background-image: url(img9/flow01.png);
+    
+    width: 280px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .step-box2{
+    width: 300px;
+    float: left;
+    border: 1px solid #eee;
+    position: relative;
+    padding: 10px;
+    margin: 0 30px;
+  }
+
+  .step2-img{
+    background-image: url(img9/flow02.png);
+    
+    width: 280px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .step-box3{
+    width: 300px;
+    float: left;
+    border: 1px solid #eee;
+    position: relative;
+    padding: 10px;
+  }
+
+  .step3-img{
+    background-image: url(img9/flow03.png);
+    
+    width: 280px;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  span{
+    background-color: orange;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .title{
+    margin: 3px 0;
+  }
+
+
+  @media screen and (max-width:768px) {
+
+  main{
+    width: 100%;
+    margin: 0;
+  }
+  .step-box1{
+    width: 100%;
+    float:none;
+   
+  }
+
+  .step1-img{
+    width: 100%;
+  }
+  .step-box2{
+    width: 100%;
+    float:none;
+    margin: 10px 0;
+  }
+
+  .step2-img{
+    width: 100%;
+  }
+  .step-box3{
+    width: 100%;
+    float:none;
+  }
+  .step3-img{
+    width: 100%;
+  }
+
+  span{
+    width: 100%;
+    position: static;
+  }
+
+  .title{
+    width: 100%;
+  }
+
+}
