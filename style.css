@@ -84,11 +84,12 @@ main{
 
   main{
     width: 100%;
-    margin: 0;
+    margin: 50px auto;
   }
   .step-box1{
-    width: 100%;
+    width: 90%;
     float:none;
+    margin: 0 auto;
    
   }
 
@@ -96,17 +97,18 @@ main{
     width: 100%;
   }
   .step-box2{
-    width: 100%;
+    width: 90%;
     float:none;
-    margin: 10px 0;
+    margin: 20px auto;
   }
 
   .step2-img{
     width: 100%;
   }
   .step-box3{
-    width: 100%;
+    width: 90%;
     float:none;
+    margin: 0 auto;
   }
   .step3-img{
     width: 100%;
